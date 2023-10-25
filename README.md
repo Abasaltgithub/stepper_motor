@@ -45,16 +45,8 @@ Before you get started, ensure you have the following components ready:
 
 In this repository, you'll find the Arduino sketch (`stepper_control.ino`) that you can upload to your Arduino. This code will control the stepper motor's movement.
 
-Make sure to adjust the following variables in the code to match your setup:
 
-```arduino
-const int stepPin = 2;       // Change to the pin connected to the Step (PUL) pin on the DM542T.
-const int dirPin = 3;        // Change to the pin connected to the Direction (DIR) pin on the DM542T.
-const int enablePin = 4;     // Change to the pin connected to the Enable (ENA) pin on the DM542T.
-const int stepsPerRev = 200; // Change to match your stepper motor's steps per revolution.
-```
-
-Upload the code to your Arduino, and your stepper motor should start moving according to your instructions.
+Upload the code **main.cpp** to your Arduino, and your stepper motor should start moving according to your instructions.
 
 ## Usage
 
@@ -63,11 +55,3 @@ Upload the code to your Arduino, and your stepper motor should start moving acco
 3. Your stepper motor should start moving based on the code's instructions.
 
 Feel free to modify the code to suit your specific project requirements, such as controlling the speed and direction of the motor.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-For more information or troubleshooting tips, please refer to the [official documentation](https://yourlinktotheofficialdocumentation.com) of the DM542T driver and the [Arduino website](https://www.arduino.cc/).
-
-Happy building!
